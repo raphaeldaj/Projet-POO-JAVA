@@ -43,7 +43,8 @@ public class TestSuperMatrice {
                 b.set(i, j, i * b.getNc() + j + 1);
             }
         }
-        // afficherMatrice(b);
+
+        afficherMatrice(b);
 
         System.out.println("la première matrice \n");
         afficherMatrice(a);
