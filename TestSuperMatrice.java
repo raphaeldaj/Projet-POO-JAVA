@@ -95,8 +95,5 @@ public class TestSuperMatrice {
         System.out.println("Contiguite de c                              : " + SuperMatrice.contiguite(c));
         System.out.println("Contiguite de sousmatrice                    : " + SuperMatrice.contiguite(sous));
         System.out.println("Contiguite de sm matrice issue de matSupermat: " + SuperMatrice.contiguite(sm));
-
-        // En Java, le garbage collector s'occupe de la libération de mémoire
-        // donc pas besoin d'équivalent à rendreSupermat
     }
 }
